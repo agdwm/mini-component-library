@@ -9,7 +9,7 @@ import { getDisplayedValue } from './Select.helpers';
 
 const Select = ({ id, label, value, onChange, children }) => {
   const displayedValue = getDisplayedValue(value, children);
-  console.log(displayedValue)
+
   return (
     <Wrapper>
       <NativeSelect
